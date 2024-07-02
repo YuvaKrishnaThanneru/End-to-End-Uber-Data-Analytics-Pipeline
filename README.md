@@ -35,6 +35,10 @@ GCP offers a comprehensive suite of services that are utilized throughout the pr
 - **Purpose**: To provide computational power for running data transformations.
 - **Usage**: A Compute Engine instance is created to run the Python transformation scripts. This instance also hosts Mage, the open-source data pipeline tool, enabling the execution of data transformation workflows. Compute Engine provides the necessary resources to handle large-scale data processing efficiently.
 
+#### Mage 🚀
+- **Purpose** : An open-source tool for building and managing data pipelines.
+- **Usage**: Mage is used to orchestrate the data pipeline. It is installed on the Compute Engine instance and handles the workflow from data ingestion to transformation and loading into BigQuery. Mage simplifies the process of managing data workflows and ensures smooth execution of the ETL (Extract, Transform, Load) process.
+
 #### BigQuery 🗃️
 - **Purpose**: To serve as a scalable data warehouse.
 - **Usage**: Once the data is transformed, it is loaded into BigQuery. BigQuery allows for fast querying and analysis of large datasets. It supports complex SQL queries and is optimized for performance, making it ideal for handling the processed Uber data.
@@ -42,10 +46,6 @@ GCP offers a comprehensive suite of services that are utilized throughout the pr
 #### Looker Studio 📊
 - **Purpose**: To create interactive and insightful data visualizations.
 - **Usage**: The final step involves creating a comprehensive dashboard in Looker Studio. Looker Studio connects to BigQuery to retrieve the processed data and provides a platform to build dynamic and interactive visualizations. This helps in deriving meaningful insights and presenting the data in an easily understandable format.
-
-### Modern Data Pipeline Tool
-- **Mage** 🚀: An open-source tool for building and managing data pipelines.
-- **Usage**: Mage is used to orchestrate the data pipeline. It is installed on the Compute Engine instance and handles the workflow from data ingestion to transformation and loading into BigQuery. Mage simplifies the process of managing data workflows and ensures smooth execution of the ETL (Extract, Transform, Load) process.
 
 ## 📊 Dataset Used
 We are using the **TLC Trip Record Data** which contains:
