@@ -12,7 +12,6 @@ Here's the project's workflow:
 - **Google Storage**: Raw data is ingested from the TLC Trip Record Data into Google Storage, providing a reliable storage solution for large datasets.
 
 ### 2. Data Modeling 🏗️
-<img src="https://github.com/YuvaKrishnaThanneru/End-to-End-Uber-Data-Analytics-pipeline/assets/171606388/09681792-fe5f-4b30-b72e-26e3900c1aa4" align="right" width="80">
 - **Fact and Dimension Tables**: The data is structured into fact and dimension tables to facilitate efficient querying and analysis.1
 
 ### 3. Data Transformation 🔄
