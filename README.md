@@ -12,7 +12,7 @@ Here's the project's workflow:
 - **Google Storage**: Raw data is ingested from the TLC Trip Record Data into Google Storage, providing a reliable storage solution for large datasets.
 
 ### 2. Data Modeling 🏗️
-- **Fact and Dimension Tables**: The data is structured into fact and dimension tables to facilitate efficient querying and analysis.1
+- **Fact and Dimension Tables**: The data is structured into fact and dimension tables to facilitate efficient querying and analysis.
 
 ### 3. Data Transformation 🔄
 - **Python Scripts**: Transformation logic is written in Python to clean, preprocess, and transform the data.
